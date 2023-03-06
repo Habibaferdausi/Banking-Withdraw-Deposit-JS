@@ -8,6 +8,6 @@ document.getElementById("btn-submit").addEventListener("click", function () {
   if (email === "ritu@gmail.com" && password === "1234") {
     window.location.href = "bank-inside.html";
   } else {
-    alert("invalid user");
+    alert("Invalid User.. Please login");
   }
 });
